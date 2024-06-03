@@ -1,0 +1,16 @@
+<html>
+    <head>
+    <script>
+        function incrementCounter() {
+        var counter = document.getElementById('counter');
+        counter.value = parseInt(counter.value) + 1;
+        }
+    </script>
+    </head>
+    <body>
+    <textarea id="counter" rows="4" cols="50">0</textarea>
+    <textarea id="counter2" rows="4" cols="50">0</textarea>
+    <br>
+    <button id="incrementButton" onclick="incrementCounter()">Increment</button>
+    </body>
+</html>
